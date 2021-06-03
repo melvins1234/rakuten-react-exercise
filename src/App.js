@@ -12,6 +12,7 @@ import User from './components/User';
 import Navbar from './components/Navbar';
 class App extends Component{
 
+
   state = {
     userA: {
       firstName: "Shinya",
@@ -25,6 +26,9 @@ class App extends Component{
     backColor: 'yellow',
     bootcamp: 'Rakuten Shoken'
   };
+
+  // const [state, setState] = useState(state);
+
   colorMapper = () => {
     const hexColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
     return hexColor;

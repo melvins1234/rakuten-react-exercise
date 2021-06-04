@@ -1,11 +1,9 @@
 // src/App.js
 
-import React,{ useState, Component } from 'react';
+import React,{ Component } from 'react';
 import {
   BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 import User from './components/User';

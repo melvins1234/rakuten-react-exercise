@@ -7,7 +7,7 @@ function User(props) {
         Hello, {props.firstName} <br />
         Welcome to {props.bootcampName}
       </h2>
-      <img src={props.image} width="350" height="350"/>
+      <img src={props.image} alt='Sample' width="350" height="350"/>
     </div>
   );
 }

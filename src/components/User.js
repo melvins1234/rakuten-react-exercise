@@ -1,9 +1,8 @@
 import React from "react";
 
 function User(props) {
-    console.log(props);
   return (
-    <div>
+    <div key={props.id}>
       <h2 style={{ backgroundColor: props.theColor }}>
         Hello, {props.firstName} <br />
         Welcome to {props.bootcampName}
